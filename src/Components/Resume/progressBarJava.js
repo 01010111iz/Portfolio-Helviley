@@ -33,19 +33,19 @@ position: relative;
 left: 20px;
 `;
 const ProgressBarResult = styled.div`
-width: 65%;
+width: 35%;
 height: 8px;
 border-radius: 10px;
 background: #a400ff;
 border: 1px solid;
 `
-function Css (){
+function Java (){
     return(
         <>
         <Container>
         <ContainerTitle>
-        <TitleProgessBar>CSS</TitleProgessBar>
-        <ProgressBarPercent>65%</ProgressBarPercent>
+        <TitleProgessBar>Java</TitleProgessBar>
+        <ProgressBarPercent>35%</ProgressBarPercent>
         </ContainerTitle>
         <ProgressBar>
           <ProgressBarResult/>
@@ -54,4 +54,4 @@ function Css (){
         </>
     )
 }
-export default Css;
+export default Java;

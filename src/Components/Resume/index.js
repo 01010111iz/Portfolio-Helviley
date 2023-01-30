@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import AlternativeContainer from "../Content/Container/alternativeContainer";
+import AlternativeContainer from "../Container/alternativeContainer";
 import Header from "../Header";
 import Title from "../Title";
 import UpperTitleBar from "../UpperTItle/UpperTitleBar";

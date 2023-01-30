@@ -32,7 +32,7 @@ const ProgressBar = styled.div`
   left: 20px;
 `;
 const ProgressBarResult = styled.div`
-  width: 90%;
+  width: 75%;
   height: 8px;
   border-radius: 10px;
   background: #a400ff;
@@ -44,7 +44,7 @@ function Html() {
       <Container>
         <ContainerTitle>
           <TitleProgessBar>HTML</TitleProgessBar>
-          <ProgressBarPercent>90%</ProgressBarPercent>
+          <ProgressBarPercent>75%</ProgressBarPercent>
         </ContainerTitle>
         <ProgressBar>
           <ProgressBarResult />

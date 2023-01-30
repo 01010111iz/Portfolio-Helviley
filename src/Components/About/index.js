@@ -1,4 +1,4 @@
-import Container from "../Content/Container";
+import Container from "../Container";
 import Header from "../Header";
 import BackTitle from "../Title";
 import UpperTitle from "../UpperTItle";

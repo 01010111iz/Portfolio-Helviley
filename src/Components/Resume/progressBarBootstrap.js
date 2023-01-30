@@ -32,7 +32,7 @@ position: relative;
 left: 20px;
 `;
 const ProgressBarResult = styled.div`
-width: 55%;
+width: 45%;
 height: 8px;
 border-radius: 10px;
 background: #a400ff;
@@ -44,7 +44,7 @@ function Bootstrap (){
         <Container>
         <ContainerTitle>
         <TitleProgessBar>Bootstrap</TitleProgessBar>
-        <ProgressBarPercent>55%</ProgressBarPercent>
+        <ProgressBarPercent>45%</ProgressBarPercent>
         </ContainerTitle>
         <ProgressBar>
           <ProgressBarResult/>

@@ -33,7 +33,7 @@ position: relative;
 left: 20px;
 `;
 const ProgressBarResult = styled.div`
-width: 75%;
+width: 55%;
 height: 8px;
 border-radius: 10px;
 background: #a400ff;
@@ -45,7 +45,7 @@ function NodeJS (){
         <Container>
         <ContainerTitle>
         <TitleProgessBar>NodeJS</TitleProgessBar>
-        <ProgressBarPercent>75%</ProgressBarPercent>
+        <ProgressBarPercent>55%</ProgressBarPercent>
         </ContainerTitle>
         <ProgressBar>
           <ProgressBarResult/>

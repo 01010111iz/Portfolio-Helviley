@@ -2,9 +2,12 @@ import styled from "styled-components";
 import Bootstrap from "./progressBarBootstrap";
 import Css from "./progressBarCss";
 import Html from "./progressBarHTML";
+import Java from "./progressBarJava";
 import Js from "./progressBarJS";
 import NodeJS from "./ProgressBarNodeJS";
+import Python from "./progressBarPython";
 import ReactJS from "./ProgressBarReactJS";
+import Ts from "./progressBarTS";
 
 const MySkills = styled.h1`
   color: #fff;
@@ -33,6 +36,9 @@ function Skills() {
         <ReactJS />
         <Bootstrap />
         <NodeJS />
+        <Java />
+        <Ts />
+        <Python />
       </DivContainer>
     </>
   );
